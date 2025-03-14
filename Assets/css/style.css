@@ -1,0 +1,80 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+  text-align: center;
+}
+
+header img {
+  width: 135px;
+  margin-top: 25px;
+}
+
+section {
+  height: 42vh;
+  text-align: center;
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #25a2c3;
+  padding-top: 30px;
+}
+
+section p {
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+section button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+main {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  padding-top: 35px;
+}
+
+h5 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+
+main p {
+  padding-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.halfmain img {
+  border-radius: 50%;
+  height: 215px;
+  margin-block: 20px;
+}
