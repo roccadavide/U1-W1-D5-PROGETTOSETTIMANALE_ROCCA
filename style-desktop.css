@@ -22,7 +22,7 @@ header img {
 }
 
 section {
-  height: 48vh;
+  height: 57vh;
   text-align: center;
   vertical-align: middle;
   background-image: url(./Assets/images/banner.jpg);
@@ -52,13 +52,17 @@ section p {
 section button {
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   border: none;
   border-radius: 5%;
   height: 42px;
   width: 130px;
   color: #ffffff;
   cursor: pointer;
+}
+
+.sotto {
+  padding-top: 40px;
 }
 
 main {
@@ -105,12 +109,14 @@ main p {
 .sezarancio {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  vertical-align: middle;
   background-color: #ee2201;
-  height: 260px;
+  height: 290px;
   color: #ffffff;
   margin-left: -20px;
   margin-right: -20px;
   margin-bottom: 40px;
+  padding: 30px;
 }
 
 h2 {
@@ -145,6 +151,7 @@ h2 {
 
 .remainingmain {
   width: 100%;
+  text-align: center;
 }
 
 .blocco {
@@ -155,7 +162,7 @@ h2 {
   border: 0.1px solid rgb(224, 221, 221);
   border-radius: 10px;
   margin-bottom: 30px;
-  height: 365px;
+  height: 395px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -163,6 +170,7 @@ h2 {
 .blocco img {
   width: 100%;
   margin-bottom: 10px;
+  height: 250px;
 }
 
 footer {
@@ -183,7 +191,7 @@ h3 {
 .footerup a,
 .footerup p {
   font-family: "Open Sans", sans-serif;
-  font-weight: 350;
+  font-weight: 250;
   font-size: 1.2rem;
   line-height: 1.5;
   padding: 20px;
@@ -204,7 +212,7 @@ h3 {
 .footerdown a,
 .footerdown p {
   font-family: "Open Sans", sans-serif;
-  font-weight: 350;
+  font-weight: 250;
   font-size: 1rem;
   padding: 20px;
   padding-bottom: 15px;

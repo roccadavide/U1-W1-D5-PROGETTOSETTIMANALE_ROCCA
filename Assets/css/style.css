@@ -22,7 +22,7 @@ header img {
 }
 
 section {
-  height: 43vh;
+  height: 50vh;
   text-align: center;
   background-image: url(../images/banner.jpg);
   background-position: center;
@@ -138,12 +138,13 @@ h2 {
   border: 0.1px solid rgb(224, 221, 221);
   border-radius: 10px;
   margin-bottom: 30px;
-  height: 365px;
+  height: 355px;
 }
 
 .blocco img {
   width: 100%;
   margin-bottom: 10px;
+  height: 215px;
 }
 
 footer {
