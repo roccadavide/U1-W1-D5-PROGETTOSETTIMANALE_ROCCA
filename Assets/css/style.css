@@ -73,6 +73,7 @@ main {
 
 h5 {
   color: #25a2c3;
+  font-size: 1.25rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.5;
@@ -94,7 +95,9 @@ main p {
 }
 
 .sezarancio {
+  font-family: "Montserrat", sans-serif;
   background-color: #ee2201;
+  height: 250px;
   color: #ffffff;
   margin-left: -20px;
   margin-right: -20px;
@@ -105,8 +108,8 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  padding-top: 30px;
-  margin-bottom: 20px;
+  padding-top: 45px;
+  margin-bottom: 30px;
 }
 
 .sezarancio p {
@@ -115,6 +118,20 @@ h2 {
   font-weight: 350;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.italic {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+.menostaccato {
+  margin-bottom: -14px;
+}
+
+.piupiccolo p {
+  font-size: 0.7rem;
 }
 
 .blocco {
@@ -127,4 +144,63 @@ h2 {
 .blocco img {
   width: 100%;
   margin-bottom: 10px;
+}
+
+footer {
+  height: 265px;
+  text-align: center;
+  background-color: #25a2c3;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footerup a,
+.footerup p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 20px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+
+.bordino {
+  background-color: #ffffff;
+  display: inline-block;
+  margin-inline: auto;
+  height: 0.5px;
+  width: 280px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.footerdown a,
+.footerdown p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 350;
+  font-size: 1rem;
+  padding: 20px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+.footerup p,
+.footerdown a {
+  margin: -20px;
+}
+
+.footerup a {
+  margin-left: -20px;
+}
+
+.footerup p {
+  display: inline;
 }
