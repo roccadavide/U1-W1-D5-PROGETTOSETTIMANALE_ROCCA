@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 400px;
+}
+
 header {
   background-color: black;
   height: 100px;
@@ -18,7 +22,7 @@ header img {
 }
 
 section {
-  height: 42vh;
+  height: 43vh;
   text-align: center;
   background-image: url(../images/banner.jpg);
   background-position: center;
@@ -48,6 +52,12 @@ section button {
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  border: none;
+  border-radius: 5%;
+  height: 35px;
+  width: 100px;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 main {
@@ -55,6 +65,10 @@ main {
   background-color: #ffffff;
   padding: 20px;
   padding-top: 35px;
+}
+
+.halfmain {
+  margin-bottom: 30px;
 }
 
 h5 {
@@ -73,8 +87,44 @@ main p {
   line-height: 1.5;
 }
 
-.halfmain img {
+.notebook img {
   border-radius: 50%;
   height: 215px;
   margin-block: 20px;
+}
+
+.sezarancio {
+  background-color: #ee2201;
+  color: #ffffff;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.sezarancio p {
+  padding-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 350;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.blocco {
+  border: 0.1px solid rgb(224, 221, 221);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 365px;
+}
+
+.blocco img {
+  width: 100%;
+  margin-bottom: 10px;
 }
