@@ -22,7 +22,7 @@ header img {
 }
 
 section {
-  height: 57vh;
+  height: 65vh;
   text-align: center;
   vertical-align: middle;
   background-image: url(./Assets/images/banner.jpg);
@@ -102,8 +102,12 @@ main p {
 
 .notebook img {
   border-radius: 50%;
-  height: 360px;
+  height: 400px;
   margin-block: 80px;
+}
+
+.notebook {
+  padding-left: 155px;
 }
 
 .sezarancio {
